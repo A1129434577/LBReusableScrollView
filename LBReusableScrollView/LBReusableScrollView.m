@@ -26,7 +26,6 @@
     }
     return self;
 }
-
 -(void)setLb_delegate:(id<LBReusableScrollViewDelegate>)lb_delegate{
     _lb_delegate = lb_delegate;
     self.delegate = self;

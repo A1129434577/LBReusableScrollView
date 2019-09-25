@@ -31,7 +31,6 @@
 }
 
 -(UIView *)scrollView:(LBReusableScrollView *)scrollView viewForPage:(NSUInteger)page{
-    NSLog(@"%ld",page);
     UIView *v = [[UIView alloc] initWithFrame:scrollView.bounds];
     if (page%2 == 0) {
         v.backgroundColor = [UIColor cyanColor];
