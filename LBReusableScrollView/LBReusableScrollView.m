@@ -32,6 +32,9 @@
     self.delegate = self;
     [self reloadData];
 }
+-(void)setDelegate:(id<UIScrollViewDelegate>)delegate{
+    [super setDelegate:self];
+}
 
 -(void)setCurrentPage:(NSUInteger)currentPage{
     _currentPage = currentPage;
