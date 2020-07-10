@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"LBReusableScrollView";
+    self.automaticallyAdjustsScrollViewInsets
     
     LBReusableScrollView *reusableScrollView = [[LBReusableScrollView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 400)];
     reusableScrollView.pagingEnabled = YES;
